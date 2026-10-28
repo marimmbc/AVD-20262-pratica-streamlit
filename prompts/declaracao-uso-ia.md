@@ -1,18 +1,17 @@
 # Declaração de Uso de IA
 
 **Nome:** Mariana Correia
-**Data:** 28/10/2026 (Aula 22 — Streamlit, parte 2)
+**Data:** 28/10/2026 
 
 ## Ferramenta
 
-Claude Code (app desktop), modelo Claude Opus 5.5, com a skill `developing-with-streamlit` instalada via `streamlit skills`.
+Claude Opus 5.5
 
 ## Prompt usado
 
 > veja o que está sendo pedido nesse arquivo para fazer a atividade Streamlit parte 2
-> faça o passo a passo solicitado no arquivo pdf
+> me ajude a fazer o passo a passo solicitado no arquivo pdf
 
-(anexado: o PDF da Aula 22 — Streamlit parte 2. A IA também leu o `ROTEIRO.md`, o `ALTAIR-CROSSFILTER.md`, o `app.py` da Aula 21 e o dataset tratado.)
 
 ## O que a IA fez
 
