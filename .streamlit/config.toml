@@ -1,20 +1,24 @@
-# Configuração do Streamlit. Descomente e ajuste conforme o projeto avançar.
-# O tema pode ser trocado pelo menu ⋮ → Settings → Choose app theme.
+# Identidade visual do app (Aula 22).
+# Paleta derivada das cores da EDA: roxo escuro = classe de interesse (doença cardíaca),
+# rosa claro = referência. O destaque é um vinho, que remete a coração/saúde cardiovascular.
+# O tema claro/escuro pode ser trocado pelo menu ⋮ → Settings → Choose app theme.
 
 [theme]
 paddingTop = "0.0rem"     # espaço abaixo da barra do topo (valor entre aspas)
-# font = "sans serif"     # "sans serif", "serif" ou "monospace"
+font = "'Nunito Sans':https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap"
+headingFont = "Lora:https://fonts.googleapis.com/css2?family=Lora:wght@600;700&display=swap"
+baseRadius = "0.6rem"
 
 [theme.light]
-primaryColor = "#c1121f"            # cor de destaque (widgets, links): mesmo vermelho dos histogramas
-backgroundColor = "#ffffff"         # fundo da página
-secondaryBackgroundColor = "#f0f2f6"  # fundo da sidebar e de widgets
-textColor = "#31333f"               # cor do texto
-borderColor = "#d5dae5"
+primaryColor = "#8e3b5f"              # cor de destaque (widgets, sliders, abas ativas): vinho
+backgroundColor = "#fcf9f8"           # fundo da página: off-white quente
+secondaryBackgroundColor = "#f3e7e4"  # fundo da sidebar e de widgets: rosa bem claro
+textColor = "#2d223a"                 # texto: mesmo roxo escuro dos gráficos
+borderColor = "#e3d2ce"
 
 [theme.dark]
-primaryColor = "#c1121f"
-backgroundColor = "#0e1117"
-secondaryBackgroundColor = "#262730"
-textColor = "#fafafa"
-borderColor = "#41444e"
+primaryColor = "#d98aa9"
+backgroundColor = "#17121d"
+secondaryBackgroundColor = "#2d223a"
+textColor = "#f3e7e4"
+borderColor = "#453852"
